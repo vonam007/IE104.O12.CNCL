@@ -1,0 +1,9 @@
+# Note:
+- header and footer are reusable components that are used in multiple pages. They are not part of the page itself.
+- main file is a general file for all page doing things like setting font family, font size, color, etc or general functions that are used in multiple pages.
+- pages in folder pages are different pages with different content, required different css and js files. They are not reusable.
+
+# Naming classname convention
+
+- use camelCase for naming variables and functions.
+
