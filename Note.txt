@@ -13,3 +13,6 @@ Example:
 }
 + <div className="myClass"></div>
 
+
+#Icons source:
+https://boxicons.com/usage
