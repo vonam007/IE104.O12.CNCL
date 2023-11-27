@@ -5,13 +5,19 @@
 
 # Naming classname convention
 
-- use camelCase for naming variables and functions, className.
+- use camelCase for naming variables and functions.
 Example: 
 + const myVariable = 1;
 + function myFunction() {
     return 1;
 }
-+ <div className="myClass"></div>
+
+- use naming-like-this for naming classnames.
+Example:
++ .my-class-name {
+    color: red;
+}
+- using BEM convention for naming classnames.
 
 
 #Icons source:
