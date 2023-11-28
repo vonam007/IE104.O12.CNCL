@@ -12,8 +12,8 @@ if (fileName == 'index.html') {
 else if (fileName == 'cloth.html') {
     animationElement.classList = 'animation start-cloth';
 }
-else if (fileName == 'shoes.html') {
-    animationElement.classList = 'animation start-shoes';
+else if (fileName == 'accessories.html') {
+    animationElement.classList = 'animation start-accessories';
 }
 else if (fileName == 'sales.html') {
     animationElement.classList = 'animation start-sales';
