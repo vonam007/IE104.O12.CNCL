@@ -2,6 +2,26 @@
 
 
 // Header
+// Header Nav
+// Animation
+let animationElement = document.getElementsByClassName('animation')[0];
+let fileName = window.location.pathname.split("/").pop();
+if (fileName == 'index.html') {
+    animationElement.classList = 'animation start-home';
+}
+else if (fileName == 'cloth.html') {
+    animationElement.classList = 'animation start-cloth';
+}
+else if (fileName == 'shoes.html') {
+    animationElement.classList = 'animation start-shoes';
+}
+else if (fileName == 'sales.html') {
+    animationElement.classList = 'animation start-sales';
+}
+else if (fileName == 'aboutus.html') {
+    animationElement.classList = 'animation start-aboutus';
+}
+// Header Subnav
 // Search Button    
 let searchBtn = document.getElementById('search-btn');
 let searchInput = document.getElementById('search-input');
@@ -23,4 +43,3 @@ searchBtn.addEventListener('click', () => {
         searchFlag = 0;
     }
 });
-

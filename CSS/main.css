@@ -1,7 +1,7 @@
 /* example */
 @import url('header.css');
 @import url('footer.css');
-
+@import url('homepage.css');
 * {
     box-sizing: border-box;
     margin: 0;

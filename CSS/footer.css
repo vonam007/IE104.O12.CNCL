@@ -1,92 +1,108 @@
+.footer-container {
+  background-color: #474747;
+}
+
 /* CSS cho footer chính */
 .footer {
-    background-color: #f8f8f8;
-    padding: 30px 0;
-  }
-  
-  /* CSS cho nội dung của footer */
-  .footer-content {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-  }
-  
-  /* CSS cho từng phần của footer */
-  .footer-section {
-    flex: 1;
-    margin-bottom: 20px;
-  }
-  
-  /* CSS cho phần giới thiệu */
-  .about {
-    margin-bottom: 30px;
-  }
-  
-  /* CSS cho logo text */
-  .logo-text {
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 10px;
-  }
-  
-  /* CSS cho thông tin liên hệ */
-  .contact {
-    margin-bottom: 10px;
-  }
-  
-  /* CSS cho mạng xã hội */
-  .socials a {
-    color: #333;
-    margin-right: 10px;
-  }
-  
-  /* CSS cho danh sách liên kết */
-  .links ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  .links li {
-    margin-bottom: 5px;
-  }
-  
-  .links a {
-    color: #666;
-    text-decoration: none;
-  }
-  
-  .links a:hover {
-    text-decoration: underline;
-  }
-  
-  /* CSS cho form liên hệ */
-  .contact-form input,
-  .contact-form textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-  }
-  
-  /* CSS cho button */
-  .btn {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  .btn:hover {
-    background-color: #555;
-  }
-  
-  /* CSS cho phần bottom của footer */
-  .footer-bottom {
-    text-align: center;
-    margin-top: 20px;
-    color: #666;
-  }
+  padding: 30px 0;
+  margin: 0 100px;
+  color: #ccc;
+}
+.footer h2 {
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+/* CSS cho nội dung của footer */
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* CSS cho từng phần của footer */
+.footer-section {
+  flex: 1;
+  margin-bottom: 20px;
+}
+
+/* CSS cho phần giới thiệu */
+.about {
+  margin-bottom: 30px;
+}
+
+/* CSS cho logo text */
+.footer-logo img {
+  height: 40px;
+  margin: 5px 0 20px 0;
+}
+
+/* CSS cho thông tin liên hệ */
+.contact {
+  margin-bottom: 10px;
+}
+
+/* CSS cho mạng xã hội */
+.socials a {
+  color: #fff;
+}
+
+.socials .bx {
+  margin-top: 10px;
+  font-size: 38px;
+  transform: translate(-3px, 0);
+}
+
+/* CSS cho danh sách liên kết */
+.links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.links li {
+  margin-bottom: 5px;
+}
+
+.links a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.links a:hover {
+  color: #B8E8FC;
+}
+
+/* CSS cho form liên hệ */
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  max-width: 500px;
+}
+
+/* CSS cho button */
+.btn {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transform: translate(-2px,0);
+}
+
+.btn:hover {
+  background-color: #555;
+}
+
+/* CSS cho phần bottom của footer */
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  color: #ccc;
+}
