@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 100%;
+    height: 72px;
+    background-color: #B8E8FC;
+}
+
+/* main nav */
+.header-nav{
+    margin-top: 12px;
+}
+
+.header-logo {
+    float: left;
+    margin-top: 24px;
+}
+
+.header-logo img {
+    width: auto;
+    height: 24px;
+    margin-left: 20px;
+}
+
+.header-nav {  
+    position: relative;
+    display: inline-block;
+    margin-left: 20px;
+    background-color: #EFEFEF;
+    text-align: center;
+    padding: 8px;
+    border-radius: 25px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+}
+
+.header-nav a {
+    color: #000;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 4px 16px;
+    z-index: 1;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+}
+
+.header-nav .animation{
+    position: absolute;
+    height: 40px;
+    /* height: 5px; */
+    top: 4px;
+    /* bottom: 0; */
+    z-index: 0;
+    background: #B8E8FC;
+    border-radius: 20px;
+    transition: all .5s ease 0s;
+}
+
+.header-nav a:nth-child(1) {
+    width: 100px;
+}
+
+.header-nav .start-home,
+a:nth-child(1):hover~.animation {
+    width: 100px;
+    left: 10px;
+}
+
+.header-nav a:nth-child(2) {
+    width: 100px;
+}
+
+.header-nav a:nth-child(2):hover~.animation {
+    width: 100px;
+    left: 110px;
+}
+
+.header-nav a:nth-child(3) {
+    width: 100px;
+}
+
+.header-nav a:nth-child(3):hover~.animation {
+    width: 100px;
+    left: 215px;
+}
+
+.header-nav a:nth-child(4) {
+    width: 100px;
+}
+
+.header-nav a:nth-child(4):hover~.animation {
+    width: 100px;
+    left: 320px;
+}
+
+.header-nav a:nth-child(5) {
+    width: 100px;
+}
+
+.header-nav a:nth-child(5):hover~.animation {
+    width: 100px;
+    left: 425px;
+}
+
+.header .active {
+    background-color: #B8E8FC;
+    border-radius: 20px;
+}
+
+.header-nav a:last-child {
+    margin-right: 0;
+}
+
+/* sub nav */
+.header-subnav {
+    float: right;
+    margin-right: 20px;
+    font-size: 26px;
+    user-select: none;
+    margin-top: 18px;
+    cursor: pointer;
+}
+.header-subnav a{
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+}
+.search-box {
+    position: relative;
+    display: inline-block;
+    transform: translate(0,-1px);
+    border-radius: 25px;
+    background-color: transparent;
+}
+.search-box a {
+    transform: translate(0,2px);
+    z-index: 100;
+}
+.search-box input {
+    height: 40px;
+    transform: translate(0,-6px);
+    padding: 0 10px 0 0;
+    border: none;
+    outline: none;
+    display: none;
+    background-color: transparent;
+    transition: all 5s ease 0s;
+}
+
+

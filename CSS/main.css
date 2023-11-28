@@ -1,6 +1,12 @@
 /* example */
-@import url('../header/header.css');
-@import url('../footer/footer.css');
+@import url('header.css');
+@import url('footer.css');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
 body {
     background-color: #f5f5f5;
@@ -10,7 +16,5 @@ body {
     line-height: 1.5;
     color: #212529;
     text-align: left;
-    margin: 0;
-    padding: 0;
     overflow-x: hidden;
 }

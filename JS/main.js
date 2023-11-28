@@ -1,26 +1,26 @@
 // Description: Main JS file for the website
 
-// Load HTML content from a file into a specific element
-const loadHTML = (path, elementId) => {
-    let xhr = new XMLHttpRequest();
-    xhr.open('GET', path, true);
-    xhr.onreadystatechange = function () {
-        if (xhr.readyState == 4 && xhr.status == 200) {
-            // Đọc xong nội dung, nhúng vào phần tử với id "footerContainer"
-            document.getElementById(elementId).innerHTML = xhr.responseText;
-        }
-    };
-    xhr.send();
-};
 
-// Run this function once when the page loads
-document.addEventListener('DOMContentLoaded', function () {
-    // Your code here
-    console.log('Page loaded');
-    // add footer content to the page
-    loadHTML('footer/footer.html', 'footer-container');
-    console.log('Footer loaded');
-    // add header content to the page
-    loadHTML('header/header.html', 'header-container');
-    console.log('Header loaded');
+// Header
+// Search Button    
+let searchBtn = document.getElementById('search-btn');
+let searchInput = document.getElementById('search-input');
+let searchBox = document.getElementById('search-box');
+let headerSubnav = document.getElementsByClassName('header-subnav')[0];
+let searchFlag = 0;
+searchBtn.addEventListener('click', () => {
+    if (searchFlag == 0) {
+        searchInput.style.display = 'inline-block';
+        searchBox.style.backgroundColor = 'white';
+        searchBox.style.padding = '5px 10px 0 10px';
+        headerSubnav.style.marginTop = '13px';
+        searchFlag = 1;
+    } else {
+        searchInput.style.display = 'none';
+        searchBox.style.backgroundColor = 'transparent';
+        searchBox.style.padding = '0';
+        headerSubnav.style.marginTop = '18px';
+        searchFlag = 0;
+    }
 });
+
