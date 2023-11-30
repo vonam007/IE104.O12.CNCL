@@ -6,32 +6,80 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CS Store</title>
     <link rel="stylesheet" href="../CSS/main.css">
+    <link rel="icon" href="../src/images/logo/tabIcon.ico" type="image/png">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 
 <body>
     <!-- header -->
+    <div class="toTop"><a href="#to-top"><i class='bx bx-chevron-up'></i></a></div>
+    <div id="to-top"></div>
     <div class="header-container" id="header-container">
         <div class="header">
             <div class="header-logo">
-                <img src="../src/images/logo/logo.png" alt="">
+                <a href="#">
+                    <img src="../src/images/logo/logo.png" alt="">
+                </a>
             </div>
             <div class="header-nav">
-                <a href="../index.html" class="header-nav-item " id="home">Home</a>
-                <a href="cloth.html" class="header-nav-item " id="cloth">Quần áo</a>
-                <a href="#" class="header-nav-item " id="accessories">Phụ kiện</a>
-                <a href="sales.html" class="header-nav-item " id="sales">Sales</a>
-                <a href="about.html" class="header-nav-item " id="aboutus">About us</a>
+                <a href="home.html" class="header-nav-item ">Home</a>
+                <a href="cloth.html" class="header-nav-item ">Quần áo</a>
+                <a href="#" class="header-nav-item ">Phụ kiện</a>
+                <a href="sales.html" class="header-nav-item ">Sales</a>
+                <a href="about.html" class="header-nav-item ">About us</a>
                 <div class="animation start-accessories"></div>
             </div>
             <div class="header-subnav">
-                <div class="search-box" id="search-box">
-                    <a href="#" id="search-btn"><i class='bx bx-search search-icon' id="search-icon"></i></a>
-                    <input type="text" class="search-input" id="search-input">
-                </div>
-                <a href="#"><i class='bx bxs-shopping-bag'></i></a>
-                <a href="#"><i class='bx bxs-user'></i></a>
-                <i class='bx bx-menu-alt-right'></i>
+                <li>
+                    <div class="search-box" id="search-box">
+                        <a id="search-btn"><i class='bx bx-search search-icon' id="search-icon"></i></a>
+                        <input type="text" class="search-input" id="search-input">
+                    </div>
+                </li>
+                <li><a href="#"><i class='bx bxs-shopping-bag'></i></a></li>
+                <li>
+                    <a href="#"><i class='bx bxs-user'></i></a>
+                    <ul class="user-dropdown-menu">
+                        <li class="dropdown-item avt-item">
+                            <a href="#">
+                                Xin chào! XXX
+                            </a>
+                            <img class="avt-img" src="../src/images/logo/logo.png" alt="">
+                        </li>
+                        <li class="dropdown-item item"><a href="#">Tài khoản của tôi</a></li>
+                        <li class="dropdown-item item"><a href="#">Đơn mua</a></li>
+                        <li class="dropdown-item sign-out"><a href="#">Sign Out</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a><i class='bx bx-menu-alt-right'></i></a>
+                    <ul class="user-dropdown-menu">
+                        <li class="dropdown-item list"><a>Mục Lục</a></li>
+                        <li class="dropdown-item item border-tb"><a href="">Áo</a></li>
+                        <li class="dropdown-item item border-tb"><a href="">Quần</a></li>
+                        <li class="dropdown-item item border-tb"><a href="">Phụ kiện</a></li>
+                        <li class="dropdown-item item border-tb"><a href="">New Arrivals</a></li>
+                        <li class="dropdown-item item"><a href="">COLLECTION</a></li>
+                        <li class="dropdown-item">
+                            <div class="help-info">
+                                <img src="../src/images/logo/logo.png" alt="">
+                                <p>
+                                    CS Store cung cấp các sản phẩm công nghệ hàng đầu với giá cả phải chăng.
+                                </p>
+                                <div class="contact">
+                                    <span><i class='bx bxs-phone'></i> 123-456-789</span> <br>
+                                    <span><i class='bx bxs-envelope'></i> info@csstore.com</span>
+                                </div>
+                                <div class="socials">
+                                    <a href="https://www.facebook.com/DoanHoiKHMT" target="_blank"><i class='bx bxl-facebook-square'></i></a>
+                                    <a href="https://www.facebook.com/DoanHoiKHMT" target="_blank"><i class='bx bxl-twitter'></i></a>
+                                    <a href="https://www.facebook.com/DoanHoiKHMT" target="_blank"><i class='bx bxl-instagram'></i></a>
+                                    <a href="https://www.facebook.com/DoanHoiKHMT" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
             </div>
         </div>
     </div>

@@ -29,6 +29,8 @@
 /* CSS cho phần giới thiệu */
 .about {
   margin-bottom: 30px;
+  margin-right: 20px;
+  text-align: justify;
 }
 
 /* CSS cho logo text */
@@ -46,7 +48,9 @@
 .socials a {
   color: #fff;
 }
-
+.socials a:hover {
+  color: #B8E8FC;
+}
 .socials .bx {
   margin-top: 10px;
   font-size: 38px;
