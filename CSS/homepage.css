@@ -18,7 +18,7 @@
 /* section 1 */
 .section-1 {
     display: flex;
-    background-color: #B8E8FC;
+    background-color: #AEDCF2;
     justify-content: space-between;
     align-items: center;
 }
@@ -48,11 +48,11 @@
     margin-bottom: 20px;
 }
 
-.section-1 .left button,
-.section-3 .left button {
+.section-1 .left .buynow,
+.section-3 .left .buynow {
     max-width: 150px;
     display: inline-block;
-    padding: 18px 24px;
+    padding: 18px 0;
     margin-top: 60px;
     border-radius: 35px;
     background-color: #0C356A;
@@ -61,15 +61,16 @@
     font-size: 16px;
     font-weight: 700;
     text-decoration: none;
-    transition: all 0.3s ease-in-out;
+    text-align: center;
     cursor: pointer;
 }
 
-.section-1 .left button:hover ,
-.section-3 .left button:hover {
+.section-1 .left .buynow:hover ,
+.section-3 .left .buynow:hover {
     background-color: #fff;
     color: #2B3499;
     border: 1px solid #2B3499;
+    transition: all 0.3s ease-in-out;
 }
 
 .section-1 .right {
@@ -98,6 +99,114 @@
 
 /* section 2 */
 
+
+.section-2 {
+    padding: 0 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section-2 .sec2-navbar-contain{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.section-2 .sec2-navbar {
+    display: inline-block;
+    margin-bottom: 80px;
+
+}
+.section-2 .sec2-navbar .sec2-navbar-item {
+    display: inline-block;
+    padding: 10px;
+    margin: 20px 10px;
+    color: #0C356A;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+}
+.section-2 .sec2-navbar .active {
+    background-color: #AEDCF2;
+    border-radius: 30px;
+}
+
+.section-2 .sec2-scrollBtn-container {
+    margin-bottom: 80px;
+}
+.section-2 .sec2-scrollBtn-container .scroll{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: #AEDCF2;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+.section-2 .sec2-scrollBtn-container .scroll i{
+    font-size: 30px;
+    color: #0C356A;
+    line-height: 50px;
+    text-align: center;
+}
+.section-2 .sec2-item-container{
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: #fff;
+    overflow-x: auto;
+    user-select: none;
+    scroll-behavior: smooth;
+}
+.section-2 .sec2-item-container::-webkit-scrollbar{
+    display: none;
+}
+
+.section-2 .sec2-item{
+    padding: 10px;
+    background-color: #F6F6F6;
+    margin-left: 10px;
+    border-radius: 30px;
+}
+
+.section-2 .sec2-item .sec2-item-img-contain{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.section-2 .sec2-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.section-2 .sec2-item .item-info {
+    padding: 20px 10px;
+    background-color: #fff;
+    border-radius: 0 0 25px 25px;
+    text-transform: capitalize;
+}
+
+.section-2 .sec2-item .item-info .item-title {
+    font-size: 24px;
+    font-weight: 700;
+}
+.section-2 .sec2-item .item-info .item-subtitle {
+    font-size: 16px;
+    font-weight: lighter;
+    margin-bottom: 10px;
+}
+.section-2 .sec2-item .item-info .item-price {
+    font-size: 24px;
+    font-weight: 700;
+    color: #0C356A;
+}
+
 /* section 3 */
 .section-3 {
     background-image: url("/src/images/background/homepage-section.png");
@@ -107,6 +216,16 @@
     flex-direction: column;
     justify-content: flex-end;
 }
+.section-3 .overlay {
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    transform: translate(-100px, 0);
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.3); /* Màu trắng mờ */
+    pointer-events: none; /* Cho phép sự kiện xảy ra qua overlay */
+  }
 .section-3 .left {
     color: #fff;
     margin-bottom: 150px;
@@ -117,7 +236,7 @@
 
 /* section 4 */
 .section-4 {
-    background-color: #B8E8FC;
+    background-color: #AEDCF2;
     display: flex;
     flex-direction: column;
     justify-content:center;
