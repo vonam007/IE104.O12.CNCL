@@ -1,7 +1,7 @@
 .header {
     width: 100%;
     height: 72px;
-    background-color: #B8E8FC;
+    background-color: #AEDCF2;
     box-shadow: 0 1px 10px 0px rgba(0, 0, 0, 0.5);
     position: fixed;
     top: 0;
@@ -15,7 +15,7 @@
     right: 20px;
     width: 50px;
     height: 50px;
-    background-color: #B8E8FC;
+    background-color: #AEDCF2;
     border-radius: 50%;
     box-shadow: 0 1px 10px 0px rgba(0, 0, 0, 0.5);
     display: block;
@@ -35,7 +35,7 @@
     height: 72px;
     display: block;
     width: 100%;
-    background-color: #B8E8FC;
+    background-color: #AEDCF2;
 }
 
 /* main nav */
@@ -83,7 +83,7 @@
     top: 4px;
     /* bottom: 0; */
     z-index: 0;
-    background: #B8E8FC;
+    background: #AEDCF2;
     border-radius: 20px;
     transition: all .5s ease 0s;
 }
@@ -244,7 +244,7 @@ a:nth-child(1):hover~.animation {
     height: 30px;
     border-radius: 50%;
     margin: 0 10px;
-    border: 3px solid #B8E8FC;
+    border: 3px solid #AEDCF2;
 }
 
 .user-dropdown-menu .item a:hover {
