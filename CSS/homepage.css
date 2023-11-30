@@ -50,6 +50,7 @@
 
 .section-1 .left .buynow,
 .section-3 .left .buynow {
+
     max-width: 150px;
     display: inline-block;
     padding: 18px 0;
@@ -74,11 +75,10 @@
 }
 
 .section-1 .right {
-    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    transform: translate(-300px, -20px);
+    transform: translate(-500px, -20px);
     max-width: 750px;
 }
 
