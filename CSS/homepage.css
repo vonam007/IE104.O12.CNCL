@@ -48,9 +48,10 @@
     margin-bottom: 20px;
 }
 
-.section-1 .left button,
-.section-3 .left button {
-    max-width: 150px;
+.section-1 .left .buynow,
+.section-3 .left .buynow {
+    width: 150px;
+    text-align: center;
     display: inline-block;
     padding: 18px 24px;
     margin-top: 60px;
@@ -62,22 +63,20 @@
     font-weight: 700;
     text-decoration: none;
     transition: all 0.3s ease-in-out;
-    cursor: pointer;
 }
 
-.section-1 .left button:hover ,
-.section-3 .left button:hover {
+.section-1 .left .buynow:hover ,
+.section-3 .left .buynow:hover {
     background-color: #fff;
     color: #2B3499;
     border: 1px solid #2B3499;
 }
 
 .section-1 .right {
-    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    transform: translate(-300px, -20px);
+    transform: translate(-500px, -20px);
     max-width: 750px;
 }
 
