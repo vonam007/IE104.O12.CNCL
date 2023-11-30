@@ -89,12 +89,12 @@
 }
 
 .header-nav a:nth-child(1) {
-    width: 100px;
+    width: 110px;
 }
 
 .header-nav .start-home,
 a:nth-child(1):hover~.animation {
-    width: 100px;
+    width: 110px;
     left: 10px;
 }
 
@@ -105,7 +105,7 @@ a:nth-child(1):hover~.animation {
 .header-nav .start-cloth,
 .header-nav a:nth-child(2):hover~.animation {
     width: 100px;
-    left: 110px;
+    left: 120px;
 }
 
 .header-nav a:nth-child(3) {
@@ -115,27 +115,27 @@ a:nth-child(1):hover~.animation {
 .header-nav .start-accessories,
 .header-nav a:nth-child(3):hover~.animation {
     width: 100px;
-    left: 215px;
+    left: 225px;
 }
 
 .header-nav a:nth-child(4) {
-    width: 100px;
+    width: 120px;
 }
 
 .header-nav .start-sales,
 .header-nav a:nth-child(4):hover~.animation {
-    width: 100px;
-    left: 320px;
+    width: 120px;
+    left: 330px;
 }
 
 .header-nav a:nth-child(5) {
-    width: 100px;
+    width: 130px;
 }
 
 .header-nav .start-about,
 .header-nav a:nth-child(5):hover~.animation {
-    width: 100px;
-    left: 425px;
+    width: 130px;
+    left: 455px;
 }
 
 
@@ -166,6 +166,11 @@ a:nth-child(1):hover~.animation {
     position: relative;
 }
 
+.header-subnav li:hover>a>i {
+    color: #ff6767;
+    transition: all 0.5s ease 0s;
+}
+
 .header-subnav li:hover .user-dropdown-menu {
     display: block;
 }
@@ -192,7 +197,6 @@ a:nth-child(1):hover~.animation {
     outline: none;
     display: none;
     background-color: transparent;
-    transition: all 5s ease 0s;
 }
 
 /* user drop down */
@@ -200,7 +204,7 @@ a:nth-child(1):hover~.animation {
 .user-dropdown-menu {
     position: fixed;
     display: none;
-    transform: translate(-175px, 0);
+    transform: translate(-180px, 0);
     border-radius: 20px;
     background-color: #EFEFEF;
     list-style-type: none;
@@ -252,9 +256,9 @@ a:nth-child(1):hover~.animation {
     transition: all .2s ease 0s;
 }
 
-/* more menu dropdown */
+/* add CSS for menu dropdown of menu icon */
 .header-subnav li:last-child .user-dropdown-menu {
-    transform: translate(-210px, 0);
+    transform: translate(-215px, 0);
 }
 
 .help-info {
@@ -263,10 +267,12 @@ a:nth-child(1):hover~.animation {
     user-select: text;
     cursor: auto;
 }
+
 .help-info img {
     width: 180px;
     height: auto;
 }
+
 .help-info .socials {
     display: flex;
     align-items: center;
@@ -274,19 +280,97 @@ a:nth-child(1):hover~.animation {
     margin-top: 20px;
     transform: translate(2px, 0);
 }
-.help-info .socials i{
+
+.help-info .socials i {
     font-size: 24px;
     color: #000;
 }
+
+.help-info .socials i:hover {
+    color: #AEDCF2;
+    transition: all 0.5s ease 0s;
+}
+
 .user-dropdown-menu .list {
     font-weight: 700;
     font-size: 24px;
     margin: 10px 0 30px 0;
     cursor: default;
 }
+
 .border-tb {
     border-bottom: 1px solid #ccc;
 }
+
 .border-tb:last-child {
     border-bottom: none;
+}
+
+/* add CSS for menu dropdown of minicart */
+.minicart {
+    width: 320px;
+    transform: translate(-220px, 0);
+}
+
+.minicart .title {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.minicart .title i,
+.minicart .title p {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.minicart .title i {
+    font-size: 24px;
+    margin-left: 10px;
+}
+
+.minicart .minicart-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.minicart .minicart-item img {
+    width: 50px;
+    height: 50px;
+}
+
+.minicart .minicart-item .item-name {
+    transform: translate(-15px, 0);
+}
+
+.minicart .minicart-item .price-container {
+    text-align: right;
+    margin-right: 10px 0;
+}
+
+.minicart .cart-btn-contain{
+    border-top: 1px solid #ccc;
+    margin: 10px 0;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.minicart .cart-btn-contain .cart-btn{
+    display: block;
+    width: 140px;
+    line-height: 40px;
+    padding: 0;
+    margin: 10px 10px 0 0;
+    text-align: center;
+    background-color: #AEDCF2;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+.minicart .cart-btn-contain .cart-btn:hover{
+    background-color: #ff6767;
+    color: #fff;
+    transition: all .2s ease 0s;
 }
