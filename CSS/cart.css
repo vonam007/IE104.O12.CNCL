@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300;400;700;900&family=Playfair+Display:ital,wght@0,400;0,600;1,500&display=swap');
+
+.page-content-container {
+    background-color: #fff;
+}
+
+.section {
+    margin: 0;
+    height: 100vh;
+    padding: 0 100px;
+    color: #0C356A;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+/* section-1 */
+.section-1 {
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.section-1 .left {
+    margin: 50px 0 100px 50px;
+}
+
+
+.section-1 .left .left-content>.title {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 30px;
+    
+}
+.section-1 .left .left-item{
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    width: 888px;
+    border-radius: 25px;
+    background-color: #fff;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.1);
+}
+
+.section-1 .left .left-item .left-item-img{
+    width: 260px;
+    height: 260px;
+    background-color: #F6F6F6;
+    border-radius: 25px 0 0 25px;
+}
+.section-1 .left .left-item .left-item-img img{
+    width: 260px;
+    height: 260px;
+    object-fit: cover;
+}
+
+.section-1 .left .left-item .left-item-info{
+    width: 100%;
+    padding: 30px  30px 0;
+}
+.section-1 .left .left-item .left-item-info .item-name_price{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+.section-1 .left-item-info .item-name,
+.section-1 .left-item-info .item-price{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.5;
+}
+.section-1 .left-item-info .item-description{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+.section-1 .left-item-info .size-contain select{
+    width: 50px;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0 0 20px 10px;
+}
+.section-1 .left-item-info .item-qty_btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+.section-1 .left-item-info .item-qty_btn input{
+    width: 50px;
+    border-radius: 14px;
+    border: 1px solid #0C356A;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.2;
+    padding: 5px 10px;
+}
+.section-1 .left-item-info .item-qty_btn input:focus{
+    outline: none;
+}
+.section-1 .left-item-info .item-qty_btn a{
+    font-size: 28px;
+    cursor: pointer;
+}
+.section-1 .left-item-info .item-qty_btn a:hover{
+    color: #ff6767;
+}
+
+.section-1 .right {
+    width: 366px;
+    margin: 50px 100px 50px 0;
+}
+.section-1 .right .bill-container {
+    width: 100%;
+    border-radius: 25px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+.section-1 .right .bill-title {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.section-1 .right .detail {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.section-1 .right .bill-total {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.2;
+    padding: 15px 0;
+    border-top: 1px solid #ccccccab;
+    border-bottom: 1px solid #ccccccab;
+}
+
+.section-1 .right .bill-container .bill-discount-code{
+    border: 1px solid #0c356a7e;
+    border-radius: 5px;
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+.section-1 .bill-container .btn-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 20px;
+}
+.section-1 .bill-container .btn-container .btn{
+    
+    width: 220px;
+    font-size: 28px;
+    padding: 15px 10px;
+    text-align: center;
+    background-color: #0C356A;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    vertical-align: middle;
+}
+.section-1 .bill-container .btn-container .btn i{
+    vertical-align: middle;
+}
+.section-1 .bill-container .btn-container .btn:hover{
+    background-color: #fff;
+    color: #0C356A;
+    border: 1px solid #0C356A;
+    padding: 13px 8px;
+}
+
+/* section 2 */
+
+.section-2 {
+    padding:30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #fff;
+}
+
+.section-2 .sec2-navbar-contain{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.section-2 .sec2-navbar {
+    display: inline-block;
+    margin-bottom: 80px;
+
+}
+.section-2 .sec2-navbar .sec2-navbar-item {
+    display: inline-block;
+    padding: 10px;
+    margin: 20px 10px;
+    color: #0C356A;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.section-2 .sec2-scrollBtn-container {
+    margin-bottom: 80px;
+}
+.section-2 .sec2-scrollBtn-container .scroll{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: #AEDCF2;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+.section-2 .sec2-scrollBtn-container .scroll i{
+    font-size: 30px;
+    color: #0C356A;
+    line-height: 50px;
+    text-align: center;
+}
+.section-2 .sec2-item-container{
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: #fff;
+    overflow-x: auto;
+    user-select: none;
+    scroll-behavior: smooth;
+    
+    color: #0C356A;
+}
+.section-2 .sec2-item-container::-webkit-scrollbar{
+    display: none;
+}
+
+.section-2 .sec2-item{
+    padding: 10px;
+    background-color: #F6F6F6;
+    margin-left: 10px;
+    border-radius: 30px;
+}
+
+.section-2 .sec2-item .sec2-item-img-contain{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.section-2 .sec2-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.section-2 .sec2-item .item-info {
+    padding: 20px 10px;
+    background-color: #fff;
+    border-radius: 0 0 25px 25px;
+    text-transform: capitalize;
+}
+
+.section-2 .sec2-item .item-info .item-title {
+    font-size: 24px;
+    font-weight: 700;
+}
+.section-2 .sec2-item .item-info .item-subtitle {
+    font-size: 16px;
+    font-weight: lighter;
+    margin-bottom: 10px;
+}
+.section-2 .sec2-item .item-info .item-price {
+    font-size: 24px;
+    font-weight: 700;
+}
