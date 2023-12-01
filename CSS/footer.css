@@ -45,7 +45,14 @@
 }
 
 /* CSS cho mạng xã hội */
+
+.socials {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+}
 .socials a {
+
   color: #fff;
 }
 .socials a:hover {
