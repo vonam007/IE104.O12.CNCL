@@ -1,0 +1,36 @@
+
+.page-content {
+    position: relative;
+    width: 80%;
+    /* border: 2px solid red; */
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 30px;
+}
+
+.page-content li {
+    margin-left: 30px;
+}
+
+.page-content h1 {
+    text-align: center;
+}
+
+.page-content h4 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.page-content p, ul, ol, li {
+    text-align: justify;
+    line-height: 1.5;
+    /* margin-top: 20px; */
+    margin-bottom: 10px;
+    color: rgba(0, 0, 0, 0.648);
+}
+
+.header-logo img {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
