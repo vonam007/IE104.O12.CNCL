@@ -8,11 +8,11 @@ document.addEventListener("DOMContentLoaded", function() {
   
     // Scroll sang trái
     scrollLeftButton.addEventListener("click", function() {
-      scrollContainer.scrollLeft -= 660; // Điều chỉnh giá trị theo ý muốn
+      scrollContainer.scrollLeft -= 1000; // Điều chỉnh giá trị theo ý muốn
     });
   
     // Scroll sang phải
     scrollRightButton.addEventListener("click", function() {
-      scrollContainer.scrollLeft += 660; // Điều chỉnh giá trị theo ý muốn
+      scrollContainer.scrollLeft += 1000; // Điều chỉnh giá trị theo ý muốn
     });
 });

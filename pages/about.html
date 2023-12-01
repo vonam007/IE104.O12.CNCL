@@ -18,16 +18,16 @@
     <div class="header-container" id="header-container">
         <div class="header">
             <div class="header-logo">
-                <a href="#">
+                <a href="home.html">
                     <img src="../src/images/logo/logo.png" alt="">
                 </a>
             </div>
             <div class="header-nav">
-                <a href="home.html" class="header-nav-item " id="home">Home</a>
+                <a href="home.html" class="header-nav-item " id="home">Trang chủ</a>
                 <a href="cloth.html" class="header-nav-item " id="cloth">Quần áo</a>
                 <a href="accessories.html" class="header-nav-item " id="accessory">Phụ kiện</a>
-                <a href="sales.html" class="header-nav-item " id="sales">Sales</a>
-                <a href="#" class="header-nav-item " id="aboutus">About us</a>
+                <a href="sales.html" class="header-nav-item " id="sales">Khuyến mãi</a>
+                <a href="about.html" class="header-nav-item " id="aboutus">Về chúng tôi</a>
                 <div class="animation start-about"></div>
             </div>
             <div class="header-subnav">
@@ -37,9 +37,49 @@
                         <input type="text" class="search-input" id="search-input">
                     </div>
                 </li>
-                <li><a href="#"><i class='bx bxs-shopping-bag'></i></a></li>
                 <li>
-                    <a href="#"><i class='bx bxs-user'></i></a>
+                    <a href="cart.html"><i class='bx bxs-shopping-bag'></i></a>
+                    <ul class="user-dropdown-menu minicart">
+                        <div class="title">
+                            <i class='bx bxs-shopping-bag'></i>
+                            <p>Giỏ hàng</p>
+                        </div>
+                        <div class="content">
+                            <div class="minicart-item">
+                                <div class="item-info">
+                                    <img src="/src/images/product/sticker.png" alt="" class="item-img">
+                                    <p class="item-name">Hình dán Mew Mew</p>
+                                </div>
+                                <div class="price-container">
+                                    <p class="price">25.000đ</p>
+                                </div>
+                            </div>
+                            <div class="minicart-item">
+                                <div class="item-info">
+                                    <img src="/src/images/product/ao.png" alt="" class="item-img">
+                                    <p class="item-name">Áo Polo CS</p>
+                                </div>
+                                <div class="price-container">
+                                    <p class="price">190.000đ</p>
+                                </div>
+                            </div>
+                            <div class="minicart-item">
+                                <div class="item-info">
+                                    <img src="/src/images/product/day-deo.png" alt="" class="item-img">
+                                    <p class="item-name">Dây CS</p>
+                                </div>
+                                <div class="price-container">
+                                    <p class="price">30.000đ</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cart-btn-contain">
+                            <a href="cart.html" class="cart-btn">Xem Giỏ hàng</a>
+                        </div>
+                    </ul>
+                </li>
+                <li>
+                    <a href="account-info.html"><i class='bx bxs-user'></i></a>
                     <ul class="user-dropdown-menu">
                         <li class="dropdown-item avt-item">
                             <a href="#">
@@ -47,20 +87,19 @@
                             </a>
                             <img class="avt-img" src="../src/images/logo/logo.png" alt="">
                         </li>
-                        <li class="dropdown-item item"><a href="#">Tài khoản của tôi</a></li>
-                        <li class="dropdown-item item"><a href="#">Đơn mua</a></li>
-                        <li class="dropdown-item sign-out"><a href="#">Sign Out</a></li>
+                        <li class="dropdown-item item"><a href="account-info.html">Tài khoản của tôi</a></li>
+                        <li class="dropdown-item item"><a href="bill.html">Đơn mua</a></li>
+                        <li class="dropdown-item sign-out"><a href="#">Đăng xuất</a></li>
                     </ul>
                 </li>
                 <li>
                     <a><i class='bx bx-menu-alt-right'></i></a>
                     <ul class="user-dropdown-menu">
                         <li class="dropdown-item list"><a>Mục Lục</a></li>
-                        <li class="dropdown-item item border-tb"><a href="">Áo</a></li>
-                        <li class="dropdown-item item border-tb"><a href="">Quần</a></li>
-                        <li class="dropdown-item item border-tb"><a href="">Phụ kiện</a></li>
-                        <li class="dropdown-item item border-tb"><a href="">New Arrivals</a></li>
-                        <li class="dropdown-item item"><a href="">COLLECTION</a></li>
+                        <li class="dropdown-item item border-tb"><a href="cloth_2.html">Quần Áo</a></li>
+                        <li class="dropdown-item item border-tb"><a href="accessories_2.html">Phụ kiện</a></li>
+                        <li class="dropdown-item item border-tb"><a href="new-arrivals.html">HÀNG MỚI VỀ</a></li>
+                        <li class="dropdown-item item"><a href="collection.html">BỘ SƯU TẬP</a></li>
                         <li class="dropdown-item">
                             <div class="help-info">
                                 <img src="../src/images/logo/logo.png" alt="">
@@ -72,10 +111,14 @@
                                     <span><i class='bx bxs-envelope'></i> info@csstore.com</span>
                                 </div>
                                 <div class="socials">
-                                    <a href="https://www.facebook.com/DoanHoiKHMT" target="_blank"><i class='bx bxl-facebook-square'></i></a>
-                                    <a href="https://www.facebook.com/DoanHoiKHMT" target="_blank"><i class='bx bxl-twitter'></i></a>
-                                    <a href="https://www.facebook.com/DoanHoiKHMT" target="_blank"><i class='bx bxl-instagram'></i></a>
-                                    <a href="https://www.facebook.com/DoanHoiKHMT" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                                    <a href="https://www.facebook.com/DoanHoiKHMT" target="_blank"><i
+                                            class='bx bxl-facebook-square'></i></a>
+                                    <a href="https://www.facebook.com/DoanHoiKHMT" target="_blank"><i
+                                            class='bx bxl-twitter'></i></a>
+                                    <a href="https://www.facebook.com/DoanHoiKHMT" target="_blank"><i
+                                            class='bx bxl-instagram'></i></a>
+                                    <a href="https://www.facebook.com/DoanHoiKHMT" target="_blank"><i
+                                            class='bx bxl-linkedin'></i></a>
                                 </div>
                             </div>
                         </li>
@@ -131,7 +174,7 @@
                     <div class="footer-logo">
                         <img src="../src/images/logo/logoReverse.png" alt="">
                     </div>
-                    <p>
+                    <p style="margin-bottom: 5px;">
                         Chào mừng bạn đến với CS Store - điểm đến hàng đầu cho sinh viên Khoa học Máy tính tại UIT!
                         Chúng tôi cung cấp đa dạng sản phẩm từ áo thun, quần đến vòng tay và móc khoá, mang đến cho bạn
                         cơ hội thể hiện đam mê và hoà vào gia đình CS. Khám phá ngay để trải nghiệm phong
@@ -141,29 +184,6 @@
                         <span><i class='bx bxs-phone'></i> 123-456-789</span> <br>
                         <span><i class='bx bxs-envelope'></i> info@csstore.com</span>
                     </div>
-                    <!-- <div class="socials">
-                        <a href="https://www.facebook.com/DoanHoiKHMT" target="_blank"><i
-                                class='bx bxl-facebook-square'></i></a>
-                        <a href="https://www.facebook.com/DoanHoiKHMT" target="_blank"><i
-                                class='bx bxl-instagram'></i></a>
-                        <a href="https://www.facebook.com/DoanHoiKHMT" target="_blank"><i
-                                class='bx bxl-linkedin'></i></a>
-                        <a href="https://www.facebook.com/DoanHoiKHMT" target="_blank"><i
-                                class='bx bxl-twitter'></i></a>
-                    </div>  -->
-                </div>
-                <div class="footer-section links">
-                    <h2>Liên kết</h2>
-                    <ul>
-                        <li><a href="#">Về chúng tôi</a></li>
-                        <li><a href="#">Sản phẩm</a></li>
-                        <li><a href="#">Dịch vụ</a></li>
-                        <li><a href="#">Chính sách bảo mật</a></li>
-                        <li><a href="#">Điều khoản sử dụng</a></li>
-                    </ul>
-                </div>
-                <div class="footer-section contact-form">
-                    <h2 style="text-align: center;">Liên hệ</h2>
                     <div class="socials">
                         <a href="https://www.facebook.com/DoanHoiKHMT" target="_blank"><i
                                 class='bx bxl-facebook-square'></i></a>
@@ -175,13 +195,31 @@
                                 class='bx bxl-twitter'></i></a>
                     </div> 
                 </div>
+                <div class="footer-section links">
+                    <h2>Liên kết</h2>
+                    <ul>
+                        <li><a href="about.html">Về chúng tôi</a></li>
+                        <li><a href="products.html">Sản phẩm</a></li>
+                        <li><a href="policy.html">Chính sách bảo mật</a></li>
+                        <li><a href="terms-of-use.html">Điều khoản sử dụng</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section contact-form">
+                    <h2>Liên hệ</h2>
+                    <form>
+                        <input type="email" name="email" class="text-input contact-input"
+                            placeholder="Địa chỉ email của bạn">
+                        <textarea rows="4" name="message" class="text-input contact-input"
+                            placeholder="Nội dung tin nhắn"></textarea> <br>
+                        <button type="submit" class="btn btn-primary">Gửi</button>
+                    </form>
+                </div>
             </div>
             <div class="footer-bottom">
-                &copy; 2022 CS Store. Đã đăng ký Bản quyền.
+                &copy; 2023 CS Store. Đã đăng ký Bản quyền.
             </div>
         </footer>
     </div>
-
     <script src="../JS/main.js"></script>
 </body>
 
