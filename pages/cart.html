@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/cart.css">
+    <link rel="stylesheet" href="../CSS/main.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body>
+    <!-- header -->
+    <div class="toTop"><a href="#to-top"><i class='bx bx-chevron-up'></i></a></div>
+    <div id="to-top"></div>
+    <div class="header-container" id="header-container">
+        <div class="header">
+            <div class="header-logo">
+                <a href="home.html">
+                    <img src="../src/images/logo/logo.png" alt="">
+                </a>
+            </div>
+            <div class="header-nav">
+                <a href="home.html" class="header-nav-item " id="home">Trang chủ</a>
+                <a href="cloth.html" class="header-nav-item " id="cloth">Quần áo</a>
+                <a href="accessories.html" class="header-nav-item " id="accessory">Phụ kiện</a>
+                <a href="sales.html" class="header-nav-item " id="sales">Khuyến mãi</a>
+                <a href="about.html" class="header-nav-item " id="aboutus">Về chúng tôi</a>
+                <div class="animation start-home"></div>
+            </div>
+            <div class="header-subnav">
+                <li>
+                    <div class="search-box" id="search-box">
+                        <a id="search-btn"><i class='bx bx-search search-icon' id="search-icon"></i></a>
+                        <input type="text" class="search-input" id="search-input">
+                    </div>
+                </li>
+                <li>
+                    <a href="cart.html"><i class='bx bxs-shopping-bag'></i></a>
+                    <ul class="user-dropdown-menu minicart">
+                        <div class="title">
+                            <i class='bx bxs-shopping-bag'></i>
+                            <p>Giỏ hàng</p>
+                        </div>
+                        <div class="content">
+                            <div class="minicart-item">
+                                <div class="item-info">
+                                    <img src="/src/images/product/sticker.png" alt="" class="item-img">
+                                    <p class="item-name">Hình dán Mew Mew</p>
+                                </div>
+                                <div class="price-container">
+                                    <p class="price">25.000đ</p>
+                                </div>
+                            </div>
+                            <div class="minicart-item">
+                                <div class="item-info">
+                                    <img src="/src/images/product/ao.png" alt="" class="item-img">
+                                    <p class="item-name">Áo Polo CS</p>
+                                </div>
+                                <div class="price-container">
+                                    <p class="price">190.000đ</p>
+                                </div>
+                            </div>
+                            <div class="minicart-item">
+                                <div class="item-info">
+                                    <img src="/src/images/product/day-deo.png" alt="" class="item-img">
+                                    <p class="item-name">Dây CS</p>
+                                </div>
+                                <div class="price-container">
+                                    <p class="price">30.000đ</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cart-btn-contain">
+                            <a href="cart.html" class="cart-btn">Xem Giỏ hàng</a>
+                        </div>
+                    </ul>
+                </li>
+                <li>
+                    <a href="account-info.html"><i class='bx bxs-user'></i></a>
+                    <ul class="user-dropdown-menu">
+                        <li class="dropdown-item avt-item">
+                            <a href="#">
+                                Xin chào! XXX
+                            </a>
+                            <img class="avt-img" src="../src/images/logo/logo.png" alt="">
+                        </li>
+                        <li class="dropdown-item item"><a href="account-info.html">Tài khoản của tôi</a></li>
+                        <li class="dropdown-item item"><a href="bill.html">Đơn mua</a></li>
+                        <li class="dropdown-item sign-out"><a href="#">Đăng xuất</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a><i class='bx bx-menu-alt-right'></i></a>
+                    <ul class="user-dropdown-menu">
+                        <li class="dropdown-item list"><a>Mục Lục</a></li>
+                        <li class="dropdown-item item border-tb"><a href="cloth_2.html">Quần Áo</a></li>
+                        <li class="dropdown-item item border-tb"><a href="accessories_2.html">Phụ kiện</a></li>
+                        <li class="dropdown-item item border-tb"><a href="new-arrivals.html">HÀNG MỚI VỀ</a></li>
+                        <li class="dropdown-item item"><a href="collection.html">BỘ SƯU TẬP</a></li>
+                        <li class="dropdown-item">
+                            <div class="help-info">
+                                <img src="../src/images/logo/logo.png" alt="">
+                                <p>
+                                    CS Store cung cấp các sản phẩm công nghệ hàng đầu với giá cả phải chăng.
+                                </p>
+                                <div class="contact">
+                                    <span><i class='bx bxs-phone'></i> 123-456-789</span> <br>
+                                    <span><i class='bx bxs-envelope'></i> info@csstore.com</span>
+                                </div>
+                                <div class="socials">
+                                    <a href="https://www.facebook.com/DoanHoiKHMT" target="_blank"><i
+                                            class='bx bxl-facebook-square'></i></a>
+                                    <a href="https://www.facebook.com/DoanHoiKHMT" target="_blank"><i
+                                            class='bx bxl-twitter'></i></a>
+                                    <a href="https://www.facebook.com/DoanHoiKHMT" target="_blank"><i
+                                            class='bx bxl-instagram'></i></a>
+                                    <a href="https://www.facebook.com/DoanHoiKHMT" target="_blank"><i
+                                            class='bx bxl-linkedin'></i></a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+            </div>
+        </div>
+    </div>
+    <div class="page-content-container"></div>
+    <div class="page-content">
+        <div class="section section-1">
+            <div class="left">
+                <div class="left-content">
+                    <div class="title">
+                        GIỎ HÀNG CỦA BẠN
+                    </div>
+                    <div class="left-item-contain">
+                        <div class="left-item">
+                            <div class="left-item-img">
+                                <img src="../src/images/product/ao.png" alt="">
+                            </div>
+                            <div class="left-item-info">
+                                <div class="item-name_price">
+                                    <div class="item-name_descr">
+                                        <p class="item-name">Áo POLO CS</p>
+                                        <p class="item-description">Áo Polo có cổ</p>
+                                    </div>
+                                    <p class="item-price">190.000 VND</p>
+                                </div>
+                                <div class="size-contain">
+                                    <label for="size">Kích cỡ:</label>
+                                    <select name="size" id="size" class="item-size">
+                                        <option value="S">S</option>
+                                        <option value="M">M</option>
+                                        <option value="L">L</option>
+                                        <option value="XL">XL</option>
+                                    </select>
+                                </div>
+                                <div class="item-qty_btn">
+                                    <input type="number" name="" id="qty" min="1" max="100" value="1">
+                                    <a class="delete"><i class='bx bx-trash'></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="left-item">
+                            <div class="left-item-img">
+                                <img src="../src/images/product/sticker.png" alt="">
+                            </div>
+                            <div class="left-item-info">
+                                <div class="item-name_price">
+                                    <div class="item-name_descr">
+                                        <p class="item-name">Hình dán Mew Mew</p>
+                                        <p class="item-description">Hình dán mew mew nhí nhảnh</p>
+                                    </div>
+                                    <p class="item-price">20.000 VND</p>
+                                </div>
+                                <div class="size-contain">
+                                    <label for="size">Kích cỡ:</label>
+                                    <select name="size" id="size" class="item-size">
+                                        <option value="S">S</option>
+                                        <option value="M">M</option>
+                                        <option value="L">L</option>
+                                        <option value="XL">XL</option>
+                                    </select>
+                                </div>
+                                <div class="item-qty_btn">
+                                    <input type="number" name="" id="qty" min="1" max="100" value="1">
+                                    <a class="delete"><i class='bx bx-trash'></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="left-item">
+                            <div class="left-item-img">
+                                <img src="../src/images/product/day-deo.png" alt="">
+                            </div>
+                            <div class="left-item-info">
+                                <div class="item-name_price">
+                                    <div class="item-name_descr">
+                                        <p class="item-name">Dây CS</p>
+                                        <p class="item-description">Dây đeo cổ thời thượng</p>
+                                    </div>
+                                    <p class="item-price">30.000 VND</p>
+                                </div>
+                                <div class="size-contain">
+                                    <label for="size">Kích cỡ:</label>
+                                    <select name="size" id="size" class="item-size">
+                                        <option value="S">S</option>
+                                        <option value="M">M</option>
+                                        <option value="L">L</option>
+                                        <option value="XL">XL</option>
+                                    </select>
+                                </div>
+                                <div class="item-qty_btn">
+                                    <input type="number" name="" id="qty" min="1" max="100" value="1">
+                                    <a class="delete"><i class='bx bx-trash'></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+                <div class="bill-container">
+                    <div class="bill-title">
+                        Chi Tiết thanh toán
+                    </div>
+                    <div class="detail">
+                        <div class="detail-title">
+                            Tạm tính
+                        </div>
+                        <div class="detail-price">
+                            240.000 VND
+                        </div>
+                    </div>
+                    <div class="detail">
+                        <div class="detail-title">
+                            Phí vận chuyển
+                        </div>
+                        <div class="detail-price">
+                            0 VND
+                        </div>
+                    </div>
+                    
+                    <div class="detail">
+                        <div class="detail-title">
+                            Thuế
+                        </div>
+                        <div class="detail-price">
+                            0 VND
+                        </div>
+                    </div>
+                    <div class="detail bill-total">
+                        <div class="detail-title">
+                            Tổng
+                        </div>
+                        <div class="detail-price">
+                            240.000 VND
+                        </div>
+                    </div>
+                    <input type="text" placeholder="Nhập mã khuyến mãi của bạn" class="bill-discount-code" >
+                    <div class="btn-container">
+                        <button class="btn btn-checkout">Thanh toán<i class='bx bx-right-arrow-alt'></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section section-2">
+            <div class="section-2-comp">
+                <div class="sec2-navbar-contain">
+                    <div class="sec2-navbar">
+                        <div class="sec2-navbar-item active" id="sec2-item-1">Bạn cũng có thể thích: </div>
+                    </div>
+                    <div class="sec2-scrollBtn-container">
+                        <button class="scroll" id="scroll-left"><i class='bx bxs-chevron-left'></i></button>
+                        <button class="scroll" id="scroll-right"><i class='bx bxs-chevron-right'></i></button>
+                    </div>
+                </div>
+                <div class="sec2-item-container" id="sec2-item-container">
+                    <div class="sec2-item">
+                        <div class="sec2-item-img-contain"><img src="../src/images/product/ao.png" alt=""
+                                class="item-img"></div>
+                        <div class="item-info">
+                            <p class="item-title">Áo POLO CS</p>
+                            <p class="item-subtitle">Áo Polo có cổ</p>
+                            <p class="item-price">190000 VND</p>
+                        </div>
+                    </div>
+                    <div class="sec2-item">
+                        <div class="sec2-item-img-contain"><img src="../src/images/product/day-deo.png" alt=""
+                                class="item-img"></div>
+                        <div class="item-info">
+                            <p class="item-title">Dây CS</p>
+                            <p class="item-subtitle">Dây đeo cổ thời thượng</p>
+                            <p class="item-price">30000 VND</p>
+                        </div>
+                    </div>
+                    <div class="sec2-item">
+                        <div class="sec2-item-img-contain"><img src="../src/images/product/mockhoa.png" alt=""
+                                class="item-img"></div>
+                        <div class="item-info">
+                            <p class="item-title">Móc Khoá CS</p>
+                            <p class="item-subtitle">Móc khoá khoa KHMT trẻ trung</p>
+                            <p class="item-price">20000 VND</p>
+                        </div>
+                    </div>
+                    <div class="sec2-item">
+                        <div class="sec2-item-img-contain"><img src="../src/images/product/sticker.png" alt=""
+                                class="item-img"></div>
+                        <div class="item-info">
+                            <p class="item-title">Hình Dán Mew Mew</p>
+                            <p class="item-subtitle">Hình dán mew mew nhí nhảnh</p>
+                            <p class="item-price">20000 VND</p>
+                        </div>
+                    </div>
+                    <div class="sec2-item">
+                        <div class="sec2-item-img-contain"><img src="../src/images/product/yoyo.png" alt=""
+                                class="item-img"></div>
+                        <div class="item-info">
+                            <p class="item-title">Dây kéo YoYo CS</p>
+                            <p class="item-subtitle">YoYo KHMT tiện lợi</p>
+                            <p class="item-price">25000 VND</p>
+                        </div>
+                    </div>
+                    <div class="sec2-item">
+                        <div class="sec2-item-img-contain"><img src="../src/images/product/card-back.png" alt=""
+                                class="item-img"></div>
+                        <div class="item-info">
+                            <p class="item-title">Danh Thiếp KHMT</p>
+                            <p class="item-subtitle">Đầy đủ thông tin liên hệ</p>
+                            <p class="item-price">0 VND</p>
+                        </div>
+                    </div>
+                    <div class="sec2-item">
+                        <div class="sec2-item-img-contain"><img src="../src/images/product/ao.png" alt=""
+                                class="item-img"></div>
+                        <div class="item-info">
+                            <p class="item-title">Áo POLO</p>
+                            <p class="item-subtitle">Áo Polo có cổ</p>
+                            <p class="item-price">190000 VND</p>
+                        </div>
+                    </div>
+                    <div class="sec2-item">
+                        <div class="sec2-item-img-contain"><img src="../src/images/product/day-deo.png" alt=""
+                                class="item-img"></div>
+                        <div class="item-info">
+                            <p class="item-title">Dây CS</p>
+                            <p class="item-subtitle">Dây đeo cổ thời thượng</p>
+                            <p class="item-price">30000 VND</p>
+                        </div>
+                    </div>
+                    <div class="sec2-item">
+                        <div class="sec2-item-img-contain"><img src="../src/images/product/mockhoa.png" alt=""
+                                class="item-img"></div>
+                        <div class="item-info">
+                            <p class="item-title">Móc Khoá CS</p>
+                            <p class="item-subtitle">Móc khoá khoa KHMT trẻ trung</p>
+                            <p class="item-price">20000 VND</p>
+                        </div>
+                    </div>
+                    <div class="sec2-item">
+                        <div class="sec2-item-img-contain"><img src="../src/images/product/sticker.png" alt=""
+                                class="item-img"></div>
+                        <div class="item-info">
+                            <p class="item-title">Hình Dán Mew Mew</p>
+                            <p class="item-subtitle">Hình dán mew mew nhí nhảnh</p>
+                            <p class="item-price">20000 VND</p>
+                        </div>
+                    </div>
+                    <div class="sec2-item">
+                        <div class="sec2-item-img-contain"><img src="../src/images/product/yoyo.png" alt=""
+                                class="item-img"></div>
+                        <div class="item-info">
+                            <p class="item-title">Dây kéo YoYo CS</p>
+                            <p class="item-subtitle">YoYo KHMT tiện lợi</p>
+                            <p class="item-price">25000 VND</p>
+                        </div>
+                    </div>
+                    <div class="sec2-item">
+                        <div class="sec2-item-img-contain"><img src="../src/images/product/card-back.png" alt=""
+                                class="item-img"></div>
+                        <div class="item-info">
+                            <p class="item-title">Danh Thiếp KHMT</p>
+                            <p class="item-subtitle">Đầy đủ thông tin liên hệ</p>
+                            <p class="item-price">0 VND</p>
+                        </div>
+                    </div>
+                    <div class="sec2-item">
+                        <div class="sec2-item-img-contain"><img src="../src/images/product/ao.png" alt=""
+                                class="item-img"></div>
+                        <div class="item-info">
+                            <p class="item-title">Áo POLO</p>
+                            <p class="item-subtitle">Áo Polo có cổ</p>
+                            <p class="item-price">190000 VND</p>
+                        </div>
+                    </div>
+                    <div class="sec2-item">
+                        <div class="sec2-item-img-contain"><img src="../src/images/product/day-deo.png" alt=""
+                                class="item-img"></div>
+                        <div class="item-info">
+                            <p class="item-title">Dây CS</p>
+                            <p class="item-subtitle">Dây đeo cổ thời thượng</p>
+                            <p class="item-price">30000 VND</p>
+                        </div>
+                    </div>
+                    <div class="sec2-item">
+                        <div class="sec2-item-img-contain"><img src="../src/images/product/mockhoa.png" alt=""
+                                class="item-img"></div>
+                        <div class="item-info">
+                            <p class="item-title">Móc Khoá CS</p>
+                            <p class="item-subtitle">Móc khoá khoa KHMT trẻ trung</p>
+                            <p class="item-price">20000 VND</p>
+                        </div>
+                    </div>
+                    <div class="sec2-item">
+                        <div class="sec2-item-img-contain"><img src="../src/images/product/sticker.png" alt=""
+                                class="item-img"></div>
+                        <div class="item-info">
+                            <p class="item-title">Hình Dán Mew Mew</p>
+                            <p class="item-subtitle">Hình dán mew mew nhí nhảnh</p>
+                            <p class="item-price">20000 VND</p>
+                        </div>
+                    </div>
+                    <div class="sec2-item">
+                        <div class="sec2-item-img-contain"><img src="../src/images/product/yoyo.png" alt=""
+                                class="item-img"></div>
+                        <div class="item-info">
+                            <p class="item-title">Dây kéo YoYo CS</p>
+                            <p class="item-subtitle">YoYo KHMT tiện lợi</p>
+                            <p class="item-price">25000 VND</p>
+                        </div>
+                    </div>
+                    <div class="sec2-item">
+                        <div class="sec2-item-img-contain"><img src="../src/images/product/card-back.png" alt=""
+                                class="item-img"></div>
+                        <div class="item-info">
+                            <p class="item-title">Danh Thiếp KHMT</p>
+                            <p class="item-subtitle">Đầy đủ thông tin liên hệ</p>
+                            <p class="item-price">0 VND</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="../JS/homepage.js"></script>
+    <script src="../JS/main.js"></script>
+</body>
+
+</html>

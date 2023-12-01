@@ -159,6 +159,8 @@
     overflow-x: auto;
     user-select: none;
     scroll-behavior: smooth;
+    
+    color: #0C356A;
 }
 .section-2 .sec2-item-container::-webkit-scrollbar{
     display: none;
@@ -204,7 +206,6 @@
 .section-2 .sec2-item .item-info .item-price {
     font-size: 24px;
     font-weight: 700;
-    color: #0C356A;
 }
 
 /* section 3 */
@@ -233,6 +234,7 @@
     text-transform: uppercase;
 }
 /* còn lại đã CSS chung với .section-1 .left */
+
 
 /* section 4 */
 .section-4 {

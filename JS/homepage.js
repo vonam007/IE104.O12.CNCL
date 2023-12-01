@@ -15,4 +15,4 @@ document.addEventListener("DOMContentLoaded", function() {
     scrollRightButton.addEventListener("click", function() {
       scrollContainer.scrollLeft += 660; // Điều chỉnh giá trị theo ý muốn
     });
-  });
+});
