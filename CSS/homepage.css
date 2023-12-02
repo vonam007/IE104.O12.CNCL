@@ -275,3 +275,7 @@
     line-height: 1.2;
     margin-bottom: 10px;
 }
+
+.sec4-content p {
+    text-align: justify;
+}
