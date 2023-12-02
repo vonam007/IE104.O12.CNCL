@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300;400;700;900&family=Playfair+Display:ital,wght@0,400;0,600;1,500&display=swap');
+
+body {
+    background-color: white;
+}
+
+.page-content {
+    margin-top: 100px;
+}
+
+.content {
+    margin: 0;
+    height: 100vh;
+    padding: 0 100px;
+    color: #0C356A;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    border: 2px solid red;
+}
+
+/* section-1 */
+.content-1 {
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+    border: 2px solid yellow;
+}
+
+.content-1 .price {
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.content-1 .color, .size, .chose_size {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.chose_size {
+    text-decoration: underline;
+    margin-bottom: 50px;
+}
+
+.content-1 .content-item {
+    width: 630px;
+    height: 630px;
+    background-color: #F6F6F6;
+    /* border: 2px solid blue; */
+    border-radius: 10px;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.content-1 .content-item img {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+}
+
+
+.content-1 h1 {
+    font-weight: 750;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.mini-items {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.mini-item img {
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+}
+
+.mini-item {
+    position: relative;
+    width: 96px;
+    height: 96px;
+    background-color: #F6F6F6;
+    border-radius: 10px;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.4);
+}
+
+.color-buttons {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.color-button {
+    width: 53.9px;
+    height: 53.9px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.size-buttons {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.group-size {
+    display: flex;
+    align-items: center;
+  }
+  
+.group-size i {
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+
+.size-button {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: #fff;
+    color: #000;
+    font-size: 16px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+}
+
+.button-group {
+    display: flex;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+    width: 150px;
+    background-color: #00000000;
+    border-radius: 5px;
+}
+
+.minus-button,
+.plus-button,
+.number-button {
+    width: 50px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.minus-button {
+    background-color: rgba(0, 0, 0, 0.4);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    color: #fff;
+}
+
+.number-button {
+    background-color: #fff;
+    color: #000;
+}
+
+.plus-button {
+    background-color: rgba(0, 0, 0, 0.4);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: #fff;
+}
+
+/* Ví dụ về tùy chỉnh màu sắc khi hover */
+.color-button:hover {
+    opacity: 0.8;
+}
+
+.size-button:hover {
+    background-color: #000;
+    color: #fff;
+}
+
