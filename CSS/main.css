@@ -1,7 +1,7 @@
 /* example */
 @import url('header.css');
 @import url('footer.css');
-
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=M+PLUS+Rounded+1c:wght@300;400;700;900&family=Playfair+Display:ital,wght@0,400;0,600;1,500&display=swap');
 
 * {
     box-sizing: border-box;
@@ -11,12 +11,13 @@
 
 body {
     background-color: #f5f5f5;
-    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
     color: #212529;
     text-align: left;
-    overflow-x: hidden;
+    overflow-x: hidden; 
+    font-family: 'Open Sans', sans-serif;
 }
 
