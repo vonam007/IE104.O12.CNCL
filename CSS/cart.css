@@ -104,7 +104,7 @@
     cursor: pointer;
 }
 .section-1 .left-item-info .item-qty_btn a:hover{
-    color: #ff6767;
+    color: #FFC436;
 }
 
 .section-1 .right {
@@ -159,7 +159,8 @@
     font-size: 28px;
     padding: 15px 10px;
     text-align: center;
-    background-color: #0C356A;
+    background-color: #FFC436;
+    color: #0C356A;
     border-radius: 5px;
     border: none;
     cursor: pointer;
@@ -172,7 +173,7 @@
 .section-1 .bill-container .btn-container .btn:hover{
     background-color: #fff;
     color: #0C356A;
-    border: 1px solid #0C356A;
+    border: 1px solid #FFC436;
     padding: 13px 8px;
 }
 
