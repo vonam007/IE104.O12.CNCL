@@ -94,3 +94,7 @@ body{
     border-radius: 6px;
     cursor: pointer;
 }
+.page_button a{
+    
+    text-decoration: none;
+}
