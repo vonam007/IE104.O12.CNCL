@@ -1,24 +1,18 @@
-
 .page-content {
     position: relative;
     width: 80%;
-    /* border: 2px solid red; */
     left: 50%;
     transform: translate(-50%);
-    margin-top: 30px;
+    margin: 50px 0;
 }
 
 .page-content li {
     margin-left: 30px;
+    font-size: 20px;
 }
 
 .page-content h1 {
     text-align: center;
-}
-
-.page-content h4 {
-    margin-top: 10px;
-    margin-bottom: 10px;
 }
 
 .page-content p, ul, ol, li {
@@ -33,4 +27,15 @@
     position: absolute;
     left: 50%;
     transform: translate(-50%);
+}
+
+.page-content .page_title{
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.page-content p{
+    font-size: 20px;
 }

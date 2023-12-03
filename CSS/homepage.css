@@ -54,8 +54,8 @@
     padding: 18px 0;
     margin-top: 60px;
     border-radius: 35px;
-    background-color: #0C356A;
-    color: #fff;
+    background-color: #FFC436;
+    color: #0c356a;
     border: none;
     font-size: 16px;
     font-weight: 700;
@@ -167,7 +167,7 @@
 .section-2 .sec2-item{
     margin-left: 20px;
     border-radius: 30px;
-    box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+    box-shadow: 5px 5px 20px 0 rgba(133, 133, 133, 0.2);
     height: 550px;
     transform: translate(0, 25px);
 }

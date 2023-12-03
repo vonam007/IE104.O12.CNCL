@@ -1,0 +1,31 @@
+.popup_container{
+    position: fixed;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 5px 5px 20px 0 rgba(133, 133, 133, 0.2);
+    border-radius: 30px;
+    width: 487px;
+    height: 295px;
+    background-color: white;
+}
+.popup_container .popup_image{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+.popup_container .popup_image .popup_img{
+    width: 200px;
+    height: 230px;
+    overflow: hidden;
+    background-image: url('../src/images/popup/tick.gif');
+    background-size: cover;
+    background-position: center;
+}
+
+.popup_container .popup_text{
+    text-align: center; 
+    font-size: 24px;
+    font-weight: 600;
+    color: #0C356A;
+}
