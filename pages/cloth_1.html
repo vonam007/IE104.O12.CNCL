@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../CSS/main.css">
     <link rel="stylesheet" href="../CSS/cloth_1.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="../JS/cloth_1.js"></script>
 
 </head>
 
@@ -129,6 +130,12 @@
     </div>
 
     <div class="page-content-container"></div>
+        <div class="size-ao">
+            <button class="close-button" onclick="closeSizeAo()">
+                <i class="bx bx-x"></i>
+              </button>
+            <img src="../src/images/product/size_ao.png" alt="">
+        </div>
         <div class="page-content">
             <div class="content content-1">
                 <div class="content-items">
@@ -153,11 +160,11 @@
                 <div class="content-text">
                     <h1>Áo POLO CS</h1>
                     <p class="price">190.000 VND</p>
-                    <p class="color">Màu sắc - vàng chanh</p>
+                    <p class="color">Màu sắc - <span id="dis-color">vàng chanh</span></p>
                     <div class="color-buttons">
-                        <button class="color-button" style="background-color: #FFC436;"></button>
-                        <button class="color-button" style="background-color: #0174BE;"></button>
-                        <button class="color-button" style="background-color: #C8FFD4;"></button>
+                        <button id="yellor" class="color-button" style="background-color: #FFC436;"></button>
+                        <button id="blue" class="color-button" style="background-color: #0174BE;"></button>
+                        <button id="green" class="color-button" style="background-color: #C8FFD4;"></button>
                     </div>
                     <p class="size">Kích cỡ</p>
                     <div class="size-buttons">
@@ -169,15 +176,16 @@
                         <button class="size-button">4XL</button>
                         <button class="size-button">5XL</button>
                     </div>
-                    <div class="group-size">
+                    <div class="group-size" id="toggle-size">
                         <i class='bx bx-ruler bx-rotate-90' ></i>
-                        <p class="chose_size">Hướng dẫn chọn kích cỡ</p>
+                        <p class="chose_size" >Hướng dẫn chọn kích cỡ</p>
                     </div>
                     <div class="button-group">
-                        <button class="minus-button">-</button>
-                        <button class="number-button">5</button>
-                        <button class="plus-button">+</button>
+                        <button class="minus-button" id="minus">-</button>
+                        <button class="number-button" id="number">1</button>
+                        <button class="plus-button" id="plus">+</button>
                     </div>
+                    <button class="add-cart"><p>Thêm vào giỏ hàng </p><i class='bx bx-right-arrow-alt'></i></button>
                 </div>
             </div>
             <div class="content content-2">
@@ -299,8 +307,8 @@
                                 <div class="sec4-navbar-item active" id="sec4-item-1">Bạn cũng có thể thích:</div>
                             </div>
                             <div class="sec4-scrollBtn-container">
-                                <button class="scroll" id="scroll-left"><i class='bx bxs-chevron-left'></i></button>
-                                <button class="scroll" id="scroll-right"><i class='bx bxs-chevron-right'></i></button>
+                                <button class="scroll" id="scroll-left1"><i class='bx bxs-chevron-left'></i></button>
+                                <button class="scroll" id="scroll-right1"><i class='bx bxs-chevron-right'></i></button>
                             </div>
                         </div>
                         <div class="sec4-item-container" id="sec4-item-container">
