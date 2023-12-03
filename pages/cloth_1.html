@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="../CSS/main.css">
     <link rel="stylesheet" href="../CSS/cloth_1.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <script src="../JS/cloth_1.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
 </head>
 
@@ -133,7 +133,7 @@
         <div class="size-ao">
             <button class="close-button" onclick="closeSizeAo()">
                 <i class="bx bx-x"></i>
-              </button>
+            </button>
             <img src="../src/images/product/size_ao.png" alt="">
         </div>
         <div class="page-content">
@@ -185,7 +185,7 @@
                         <button class="number-button" id="number">1</button>
                         <button class="plus-button" id="plus">+</button>
                     </div>
-                    <button class="add-cart"><p>Thêm vào giỏ hàng </p><i class='bx bx-right-arrow-alt'></i></button>
+                    <button class="add-cart" onclick="popup3seconds()"><p>THÊM VÀO GIỎ HÀNG</p><i class='bx bx-right-arrow-alt'></i></button>
                 </div>
             </div>
             <div class="content content-2">
@@ -251,9 +251,9 @@
                 <div class="group-text">
                     <i class='bx bx-check'></i>
                     <p class="description">Đổi kích cỡ trong vòng 7 ngày, đổi sản phẩm lỗi trong vòng 7 ngày, kể từ thời điểm mua hàng.</p>
-                </div> 
-                <button class="thu-gon"><i class='bx bxs-chevrons-up'></i> Thu gọn</button>             
+                </div>     
             </div>
+            <button class="thu-gon" id="IDthugon"><i class='bx bxs-chevrons-up'></i>Thu gọn</button>  
             <div class="content content-3">
                 <div class="section section-2">
                     <div class="section-2-comp">
@@ -418,6 +418,11 @@
             </div>
         </footer>
     </div>
+    <div id="IDpopup"></div>
+    
+
+    <script src="../JS/cloth_1.js"></script>
+    <script src="../JS/popup.js"></script>
     <script src="../JS/homepage.js"></script>
     <script src="../JS/main.js"></script>
 </body>

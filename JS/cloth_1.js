@@ -1,3 +1,13 @@
+$(document).ready(function() {
+  $("#IDthugon").click(function() {
+    $(".content-2").toggleClass("expanded");
+    if ($(".content-2").hasClass("expanded")) {
+      $("#IDthugon").text("Thu gọn");
+    } else {
+      $("#IDthugon").text("Xem thêm");
+    }
+  });
+});
 document.addEventListener("DOMContentLoaded", function() {
     //
     // Mở bảng size
