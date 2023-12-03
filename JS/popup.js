@@ -1,5 +1,9 @@
+document.body.appendChild(document.createElement("div")).id = "IDpopup";
+
 function popup3seconds() {
+    console.log("isclick");
     let popup = document.getElementById("IDpopup");
+    console.log(popup);
     let originalContent = popup.innerHTML;
     popup.innerHTML = `
     <div class="popup_container">
@@ -11,7 +15,7 @@ function popup3seconds() {
     </div>  
     </div>
     `;
-    setTimeout(function() {
+    setTimeout(function () {
         popup.innerHTML = originalContent;
-    }, 1870);
+    }, 1880);
 }

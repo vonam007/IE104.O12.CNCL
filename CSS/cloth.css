@@ -69,13 +69,63 @@
     margin-top: 50px;
 }
 
-.section-2 .item-list-item {
+.section-2 .sec2-item {
     width: 350px;
     height: 400px;
     background-color: #F6F6F6;
     box-shadow: 5px 5px 20px 0px rgba(133, 133, 133, 0.20);
     border-radius: 30px;
-    margin-bottom: 30px;
+    cursor: pointer;
+    
+}
+.section-2 .sec2-item .sec2-item-img-contain {
+    width: 350px;
+    height: 300px;
+    border-radius: 30px 30px 0 0;
+}
+.section-2 .sec2-item .sec2-item-img-contain img {
+    width: 100%;
+    height: 100%;
+    border-radius: 30px 30px 0 0;
+    object-fit: cover;
+}
+.section-2 .sec2-item .sec2-item-info {
+    
+}
+.section-2 .sec2-item-info .sec2-item-name,
+.section-2 .sec2-item-info .sec2-item-price {
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 30px;
+    line-height: 24px;
+}
+.section-2 .sec2-item-info .sec2-item-description {
+    margin-bottom: 10px;
+    font-size: 15px;
+    margin-left: 30px;
+}
+.section-2 .sec2-item-info .sec2-item-name {
+    padding-top: 10px;
+}
+.section-2 .sec2-item-info .sec2-item-price {
+    padding-bottom: 10px;
+    
+}
+.section-2 .sec2-item-info-contain{
+
+    background-color: #fff;
+    border-radius: 0 0 30px 30px;
+}
+.section-2 .sec2-item-contain i {
+    display: inline-block;
+    font-size: 48px;
+    z-index: 100;
+    transform: translate(285px, -60px);
+    cursor: pointer;
+}
+.section-2 .sec2-item-contain i:hover {
+    color: #FFC436;
+    transition: all 0.3s ease-in-out;
 }
 
 .section-2 .sec2-pagenum-bar {

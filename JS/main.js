@@ -25,9 +25,35 @@ searchBtn.addEventListener('click', () => {
         searchFlag = 0;
     }
 });
+// sign out btn
+document.addEventListener("DOMContentLoaded", function() {
+    const signOutItems = document.querySelectorAll(".sign-out a");
+    signOutItems.forEach(item => {
+        item.addEventListener("click", function(event) {
+            event.preventDefault(); // Prevent the default action
+            window.location.href = "isDevelope.html";
+        });
+    });
+});
 
+
+// 
+// điều hướng về trang 1 sản phẩm khi click vào sản phẩm
 document.addEventListener("DOMContentLoaded", function() {
     const items = document.querySelectorAll(".sec2-item");
+
+    const handleClick = (event) => {
+        // Your function here
+        window.location.href = "cloth_1.html";
+        console.log("Item clicked", event.target);
+    };
+
+    items.forEach(item => {
+        item.addEventListener("click", handleClick);
+    });
+});
+document.addEventListener("DOMContentLoaded", function() {
+    const items = document.querySelectorAll(".sec4-item");
 
     const handleClick = (event) => {
         // Your function here
