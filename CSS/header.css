@@ -168,7 +168,7 @@ a:nth-child(1):hover~.animation {
 }
 
 .header-subnav li:hover>a>i {
-    color: #ff6767;
+    color: #FFC436;
     transition: all 0.5s ease 0s;
 }
 
@@ -253,7 +253,7 @@ a:nth-child(1):hover~.animation {
 }
 
 .user-dropdown-menu .item a:hover {
-    color: #ff6767;
+    color: #FFC436;
     transition: all .2s ease 0s;
 }
 
@@ -366,9 +366,9 @@ a:nth-child(1):hover~.animation {
     padding: 2px;
     margin: 10px 10px 0 0;
     text-align: center;
-    color: #fff;
-    background-color: #0C356A;
-    border-radius: 10px;
+    color: #0C356A;
+    background-color: #FFC436;
+    border-radius: 6px;
     border: none;
     cursor: pointer;
 }
@@ -376,5 +376,5 @@ a:nth-child(1):hover~.animation {
     background-color: #fff;
     color: #0C356A;
     padding: 1px;
-    border: 1px solid #0C356A;
+    border: 1px solid #FFC436;
 }
