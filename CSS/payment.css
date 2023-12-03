@@ -34,7 +34,7 @@
     padding: 40px 20px;
     background-color: #fff;
     border-radius: 25px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 5px 5px 20px 0 rgba(133, 133, 133, 0.2);
 }
 
 .left-container .info .row {
@@ -66,7 +66,7 @@
     padding: 20px;
     background-color: #fff;
     border-radius: 25px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-shadow: 5px 5px 20px 0 rgba(133, 133, 133, 0.2);
     
 }
 
@@ -203,7 +203,7 @@
     
     margin: 20px 0;
     border-radius: 15px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-shadow: 5px 5px 20px 0 rgba(133, 133, 133, 0.2);
 }
 .right-container .item-sumary-container .item-sumary {
     display: flex;

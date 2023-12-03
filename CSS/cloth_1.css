@@ -53,7 +53,7 @@ body {
     background-color: #F6F6F6;
     /* border: 2px solid blue; */
     border-radius: 10px;
-    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.4);
+    box-shadow: 5px 5px 20px 0 rgba(133, 133, 133, 0.2);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -92,7 +92,7 @@ body {
     height: 90px;
     background-color: #F6F6F6;
     border-radius: 10px;
-    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.4);
+    box-shadow: 5px 5px 20px 0 rgba(133, 133, 133, 0.2);
 }
 
 .color-buttons {
@@ -135,12 +135,12 @@ body {
     background-color: #fff;
     color: #000;
     font-size: 16px;
-    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+    box-shadow: 5px 5px 20px 0 rgba(133, 133, 133, 0.2);
 }
 
 .button-group {
     display: flex;
-    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+    box-shadow: 5px 5px 20px 0 rgba(133, 133, 133, 0.2);
     width: 135px;
     background-color: #00000000;
     border-radius: 5px;
@@ -326,7 +326,7 @@ body {
 .section-2 .sec2-item{
     margin-left: 20px;
     border-radius: 30px;
-    box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+    box-shadow: 5px 5px 20px 0 rgba(133, 133, 133, 0.2);
     height: 430px;
     transform: translate(0, 25px);
 }
@@ -453,7 +453,7 @@ body {
 .section-4 .sec4-item {
     margin-left: 20px;
     border-radius: 30px;
-    box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+    box-shadow: 5px 5px 20px 0 rgba(133, 133, 133, 0.2);
     height: 500px;
     transform: translate(0, 25px);
 }
