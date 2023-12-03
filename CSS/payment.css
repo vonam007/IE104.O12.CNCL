@@ -116,12 +116,13 @@
     margin-top: 20px;
 }
 .left-container .btn-container .btn-checkout{
-    color: #fff;
+    color: #0C356A;
     width: 220px;
     font-size: 28px;
     padding: 10px;
+    margin: 20px 0;
     text-align: center;
-    background-color: #0C356A;
+    background-color: #FFC436;
     border-radius: 5px;
     border: none;
     cursor: pointer;
@@ -134,42 +135,9 @@
 .left-container .btn-container .btn-checkout:hover{
     background-color: #fff;
     color: #0C356A;
-    border: 1px solid #0C356A;
+    border: 1px solid #FFC436;
     padding: 9px;
 }
-
-.payment-success {
-    background-color: #4CAF50;
-    color: white;
-    padding: 20px;
-    position: fixed;
-    display: none;
-    flex-direction: column;
-    align-items: center;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1000;
-}
-
-.payment-success h1,
-.payment-success p {
-    text-align: justify;
-}
-
-.payment-success a {
-    color: white;
-    text-decoration: none;
-    font-size: 18px;
-    line-height: 25px;
-    display: inline-block;
-    margin: 30px 20px 10px 20px;
-}
-
-.payment-success a:hover {
-    text-decoration: underline;
-}
-
 
 .right-container {
     width: 350px;

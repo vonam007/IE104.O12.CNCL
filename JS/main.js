@@ -25,3 +25,31 @@ searchBtn.addEventListener('click', () => {
         searchFlag = 0;
     }
 });
+
+document.addEventListener("DOMContentLoaded", function() {
+    const items = document.querySelectorAll(".sec2-item");
+
+    const handleClick = (event) => {
+        // Your function here
+        window.location.href = "cloth_1.html";
+        console.log("Item clicked", event.target);
+    };
+
+    items.forEach(item => {
+        item.addEventListener("click", handleClick);
+    });
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+    const items = document.querySelectorAll(".minicart-item");
+
+    const handleClick = (event) => {
+        // Your function here
+        window.location.href = "cloth_1.html";
+        console.log("Item clicked", event.target);
+    };
+
+    items.forEach(item => {
+        item.addEventListener("click", handleClick);
+    });
+});

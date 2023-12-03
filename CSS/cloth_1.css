@@ -96,6 +96,7 @@ body {
 .chose_size {
     text-decoration: underline;
     margin-bottom: 70px;
+    cursor: pointer;
 }
 
 .content-1 .content-item {
@@ -267,8 +268,6 @@ body {
 /* content-2 */
 /*  */
 /*  */
-
-
 
 
 
