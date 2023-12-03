@@ -95,11 +95,15 @@
 }
 
 .payment-select .info .select-method-container .payment-method {
-    display: none;    
+    height: 0;
+    overflow: hidden;
+    transition: all 2s ease-in-out;
 }
 
 .payment-select .info .select-method-container .payment-method-info {
     margin: 20px 0;
+    
+    transition: all 2s ease-in-out;
 }
 
 .payment-select .info .select-method-container input {
