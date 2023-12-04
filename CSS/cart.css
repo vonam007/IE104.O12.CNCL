@@ -23,7 +23,7 @@
 
 
 .section-1 .left .left-content>.title {
-    font-size: 26px;
+    font-size: 30px;
     font-weight: 700;
     line-height: 1.2;
     margin-bottom: 30px;
@@ -63,12 +63,12 @@
 }
 .section-1 .left-item-info .item-name,
 .section-1 .left-item-info .item-price{
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 700;
     line-height: 1.5;
 }
 .section-1 .left-item-info .item-description{
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 400;
     line-height: 1.5;
     margin-bottom: 20px;
@@ -76,10 +76,15 @@
 .section-1 .left-item-info .size-contain select{
     width: 50px;
     border: none;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 400;
+    color: #0C356A;
     line-height: 1.5;
     margin: 0 0 20px 10px;
+}
+.section-1 .left-item-info .size-contain label{
+    font-size: 20px;
+    font-weight: 400;
 }
 .section-1 .left-item-info .item-qty_btn {
     display: flex;
@@ -88,19 +93,21 @@
     margin-top: 30px;
 }
 .section-1 .left-item-info .item-qty_btn input{
-    width: 50px;
+    width: 100px;
+    height: 50px;
     border-radius: 14px;
     border: 1px solid #0C356A;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 400;
     line-height: 1.2;
     padding: 5px 10px;
+    text-align: center;
 }
 .section-1 .left-item-info .item-qty_btn input:focus{
     outline: none;
 }
 .section-1 .left-item-info .item-qty_btn a{
-    font-size: 28px;
+    font-size: 20px;
     cursor: pointer;
 }
 .section-1 .left-item-info .item-qty_btn a:hover{
@@ -116,7 +123,7 @@
     padding: 0;
 }
 .section-1 .right .bill-title {
-    font-size: 26px;
+    font-size: 30px;
     font-weight: 700;
     line-height: 1.2;
     margin-bottom: 20px;
@@ -128,6 +135,14 @@
     justify-content: space-between;
     align-items: center;
     margin-bottom: 10px;
+}
+.section-1 .right .detail .detail-title{
+    font-size: 20px;
+    font-weight: 600;
+}
+.section-1 .right .detail .detail-price{
+    font-size: 20px;
+    font-weight: 600;
 }
 .section-1 .right .bill-total {
     font-size: 20px;
@@ -142,9 +157,10 @@
     border: 1px solid #0c356a7e;
     border-radius: 5px;
     width: 100%;
-    height: 40px;
+    height: 50px;
     margin-top: 10px;
     padding-left: 10px;
+    font-size: 20px;
 }
 
 .section-1 .bill-container .btn-container{
@@ -154,10 +170,10 @@
     margin-top: 20px;
 }
 .section-1 .bill-container .btn-container .btn{
-    
-    width: 220px;
-    font-size: 28px;
-    padding: 15px 10px;
+    width: 250px;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 10px 10px;
     text-align: center;
     background-color: #FFC436;
     color: #0C356A;

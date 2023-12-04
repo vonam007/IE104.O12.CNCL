@@ -16,7 +16,7 @@
 }
 
 .left-container .title {
-    font-size: 22px;
+    font-size: 24px;
     font-weight: 700;
     margin: 40px 0;
     text-transform: uppercase;
@@ -159,6 +159,14 @@
     align-items: center;
     margin-bottom: 15px;
 }
+.right-container .detail .detail-title{
+    font-size: 20px;
+    font-weight: 600;
+}
+.right-container .detail .detail-price{
+    font-size: 20px;
+    font-weight: 600;
+}
 .right-container .bill-total {
     font-size: 20px;
     font-weight: 700;
@@ -209,6 +217,9 @@
     font-size: 20px;
     font-weight: 700;
     margin-bottom: 10px;
+}
+.right-container .item-sumary-container .item-sumary .item-sumary-info .item-size{
+    font-size: 18px;
 }
 .right-container .item-sumary-container .item-sumary .item-sumary-info .item-quantity{
     text-align: right;
