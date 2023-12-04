@@ -3,6 +3,9 @@ sales-price
 E32B32
  */
 
+.section-1 {
+    background-image: url('../src/images/background/sale.png');
+}
 
 .section-2 .sec2-item .sec2-item-info .sec2-item-price .origin-price {
     text-decoration: line-through;
