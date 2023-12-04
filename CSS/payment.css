@@ -116,14 +116,14 @@
     margin-top: 20px;
 }
 .left-container .btn-container .btn-checkout{
-    color: #0C356A;
-    width: 300px;
-    font-size: 24px;
-    font-weight: 600;
+    width: 370px;
+    font-size: 26px;
+    font-weight: 700;
     padding: 10px;
     margin: 20px 0;
     text-align: center;
     background-color: #FFC436;
+    color: #0C356A;
     border-radius: 5px;
     border: none;
     cursor: pointer;
@@ -134,10 +134,8 @@
     vertical-align: middle;
 }
 .left-container .btn-container .btn-checkout:hover{
-    background-color: #fff;
-    color: #0C356A;
-    border: 1px solid #FFC436;
-    padding: 9px;
+    background-color:#0C356A;
+    color: white;
 }
 
 .right-container {
