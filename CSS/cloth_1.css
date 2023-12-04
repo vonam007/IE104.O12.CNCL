@@ -29,7 +29,7 @@ body {
 /*  */
 
 .size-ao {
-    position: absolute;
+    position: fixed;
     width: 600px;
     height: 550px;
     left: 50%;

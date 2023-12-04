@@ -162,7 +162,7 @@
                     <div>Khu phố 6, phường Linh Trung, Tp. Thủ Đức, Tp. Hồ chí Minh.</div>
                 </div>
                 <div class="detail_side3">
-                    <div class="page_text2">*Thông tin chi tiết đơn hàng</div>
+                    <div class="page_text2" onclick="redirectToBillpage()">*Thông tin chi tiết đơn hàng</div>
                 </div>
             </div>
             <div class="page_button">
@@ -226,6 +226,11 @@
         </footer>
     </div>
 
+    <script>
+        function redirectToBillpage() {
+            window.location.href = "./bill.html";
+        }
+    </script>
     <script src="../JS/main.js"></script>
 </body>
 

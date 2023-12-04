@@ -1,0 +1,18 @@
+/* origin-price
+sales-price
+E32B32
+ */
+
+
+.section-2 .sec2-item .sec2-item-info .sec2-item-price .origin-price {
+    text-decoration: line-through;
+    color: #999999;
+    font-size: 18px;
+    font-weight: 400;
+}
+.section-2 .sec2-item .sec2-item-info .sec2-item-price .sales-price {
+    color: #E32B32;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+}
