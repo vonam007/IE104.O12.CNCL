@@ -262,7 +262,8 @@ body {
 }
 
 .add-cart:hover {
-    opacity: 0.8;
+    color: white;
+    background-color: #0C356A   ;
 }
 
 .size-button:hover {
