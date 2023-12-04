@@ -54,7 +54,6 @@
     padding: 10px;
     border: none;
     border-bottom: 1px solid #ccc;
-    
 }
 .left-container .info input:focus,
 .left-container .info select:focus {
@@ -107,6 +106,28 @@
 
 .payment-select .info .select-method-container input {
     width: 20px;
+}
+
+.left-container .info input {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#city{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+#ward{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+#district{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 .left-container .btn-container{
