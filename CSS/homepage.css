@@ -211,28 +211,67 @@
 
 /* section 3 */
 .section-3 {
-    background-image: url("/src/images/background/homepage-section.png");
-    background-repeat: no-repeat;
-    background-size: cover;    
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-}
-.section-3 .overlay {
-    position: absolute;
     padding: 0;
+}
+
+
+/*slideshow styles*/
+
+.slideshow {
+    width: 100%;
     margin: 0;
-    transform: translate(-100px, 0);
-    width: 100vw;
     height: 100vh;
-    background: rgba(0, 0, 0, 0.3); /* Màu trắng mờ */
-    pointer-events: none; /* Cho phép sự kiện xảy ra qua overlay */
   }
+  
+  .slideshow-container {
+    width: 5760px;
+    transition: 1s ease;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  
+  .slide img {
+    width: 1920px;
+    height: auto;
+    object-fit: cover;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .slide {
+    animation: slide 12s ease infinite;
+  }
+  
+  @keyframes slide {
+    0%, 20% {
+      transform: translateX(0%);
+    }
+    
+    40%, 60% {
+      transform: translateX(-33.4%);
+    }
+    
+    80%, 100% {
+      transform: translateX(-66.77%);
+    }
+}
+
+
 .section-3 .left {
+    padding: 0 100px;
     color: #fff;
     margin-bottom: 150px;
     max-width: 700px;
+<<<<<<< Updated upstream
     text-transform: uppercase;
+=======
+    position: absolute;
+>>>>>>> Stashed changes
 }
 /* còn lại đã CSS chung với .section-1 .left */
 
