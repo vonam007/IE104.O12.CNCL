@@ -81,19 +81,19 @@ body{
     color: #0C356A;
     cursor: pointer;
 }
-.page_button{
+.page_container .page_center .page_button{
     background-color: #FFC436;
     margin: 45px auto;
     text-align: center;
     padding: 10px 0px;
     width: 20%;
     font-size: 24px;
-    font-weight: 600;
+    font-weight: 700;
     color: #0C356A;
     border-radius: 6px;
     cursor: pointer;
 }
-.page_button a{
-    
+.page_container .page_center .page_button a{
+    color: #0C356A;
     text-decoration: none;
 }

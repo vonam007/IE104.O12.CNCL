@@ -12,7 +12,8 @@ E32B32
 }
 .section-2 .sec2-item .sec2-item-info .sec2-item-price .sales-price {
     color: #E32B32;
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 700;
     line-height: 24px;
+    margin-left: 10px;
 }
