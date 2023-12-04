@@ -93,7 +93,14 @@ body{
     border-radius: 6px;
     cursor: pointer;
 }
+.page_container .page_center .page_button:hover{
+    color: white;
+    background-color: #0C356A;
+}
 .page_container .page_center .page_button a{
     color: #0C356A;
     text-decoration: none;
+}
+.page_container .page_center .page_button a:hover{
+    color: white;
 }
