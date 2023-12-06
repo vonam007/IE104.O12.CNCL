@@ -54,22 +54,25 @@
 .section-2 .sec2-item-list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin-top: 50px;
+    gap: 5px;
 }
 
 .section-2 .sec2-item {
-    width: 350px;
-    height: 400px;
+    width: 280px;
+    height: 350px;
     background-color: #F6F6F6;
     box-shadow: 5px 5px 20px 0px rgba(133, 133, 133, 0.20);
     border-radius: 30px;
     cursor: pointer;
     
+    
 }
 .section-2 .sec2-item .sec2-item-img-contain {
-    width: 350px;
-    height: 300px;
+    width: 280px;
+    height: 250px;
+    padding: 10px;
     border-radius: 30px 30px 0 0;
 }
 .section-2 .sec2-item .sec2-item-img-contain img {
@@ -83,7 +86,7 @@
 }
 .section-2 .sec2-item-info .sec2-item-name,
 .section-2 .sec2-item-info .sec2-item-price {
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 700;
     margin-left: 30px;
     line-height: 24px;
@@ -97,7 +100,7 @@
     padding-top: 10px;
 }
 .section-2 .sec2-item-info .sec2-item-price {
-    padding-bottom: 10px;
+    padding-bottom: 5px;
     
 }
 .section-2 .sec2-item-info-contain{
@@ -109,7 +112,7 @@
     display: inline-block;
     font-size: 48px;
     z-index: 100;
-    transform: translate(285px, -60px);
+    transform: translate(210px, -60px);
     cursor: pointer;
 }
 .section-2 .sec2-item-contain i:hover {
