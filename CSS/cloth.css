@@ -54,9 +54,13 @@
 .section-2 .sec2-item-list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin-top: 50px;
     gap: 5px;
+}
+.section-2 .sec2-item-list::after {
+    content: "";
+    width: calc(60% - 12px);
 }
 
 .section-2 .sec2-item {

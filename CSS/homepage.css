@@ -1,3 +1,4 @@
+
 .page-content-container {
     background-color: #fff;
 }
@@ -19,6 +20,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 0 200px;
+    width: 100%;
 }
 
 .section-1 .left{
@@ -78,6 +80,7 @@
 }
 
 .section-1 .right {
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -86,9 +89,8 @@
 }
 
 .section-1 .right .circle {
-    position: absolute;
-    width: 750px;
-    height: 400px;
+    width: 100%;
+    aspect-ratio: 75/40;
     border-radius: 50%;
     transform: rotate(30deg);
     background-color: #fff;
@@ -96,8 +98,8 @@
 
 .section-1 .right img {
     position: absolute;
-    width: 600px;
-    height: 600px;
+    width: 100%;
+    aspect-ratio: 1/1;
 }
 
 /* section 2 */
